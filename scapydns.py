@@ -1,7 +1,7 @@
 
 from scapy.all import *
 
-conf.iface ="Realtek Gaming GbE Family Controller"
+conf.iface ="Realtek Gaming GbE Family Controller "
 
 
 def DNSFilter(p):

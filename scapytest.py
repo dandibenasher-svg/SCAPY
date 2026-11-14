@@ -1,6 +1,6 @@
 
 from scapy.all import *
-conf.iface = "Npcap Loopback Adapter"
+conf.iface = "Npcap Loopback Adapter "
 
 def HTTPFilter(p):
     return Raw in p and p[Raw].load.startswith(b'GET')

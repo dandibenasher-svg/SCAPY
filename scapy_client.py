@@ -1,6 +1,6 @@
 from scapy.all import *
 conf.verb = 0
-SERVER_IP = "192.168.72.17"
+SERVER_IP = "192.168.72.173"
 PORT = 12345
 
 
